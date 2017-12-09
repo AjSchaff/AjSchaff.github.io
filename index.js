@@ -1,9 +1,10 @@
-const express = require('express')
-const bodyParser = require('body-parser');
-const exphbs = require('express-handlebars')
+const express     = require('express')
+const MongoClient = require('mongodb').MongoClient;
+const bodyParser  = require('body-parser');
+const exphbs      = require('express-handlebars')
 
-const app = express()
-const port = 3000
+const app         = express()
+const port        = 3000
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
