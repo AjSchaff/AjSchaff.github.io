@@ -10,9 +10,15 @@
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
   </head>
   <body>
-    {{> header}}
-    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-    {{> body}}
+      <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+          <!-- Your menu or Off-canvas content goes here -->
+          {{> navigation-links}}
+        </div>
+    <div class="off-canvas-content" data-off-canvas-content>
+      {{> header}}
+      {{> body}}
+    </div>
+    
 
     <script src="{{root}}assets/js/app.js"></script>
   </body>

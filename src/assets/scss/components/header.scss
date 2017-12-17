@@ -1,7 +1,8 @@
 @import 'settings';
 
 .title-bar {  
-  background: rgb(85, 125, 235) !important;
+  background: #495A67 !important;
+  padding: 1.5em .5em !important;
 }
 
 .title-bar-left {
@@ -23,8 +24,14 @@
 }
 
 .menu-item {
-  color: white;
+  list-style: none;
   padding: 0 15px;
+  a {
+    color: #D9D9D9;
+    &:hover, &:focus {
+      color: $dark-gray;
+    }
+  }  
 }
 
 .menu-item img {  
