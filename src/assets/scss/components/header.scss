@@ -1,0 +1,32 @@
+@import 'settings';
+
+.title-bar {  
+  background: rgb(85, 125, 235) !important;
+}
+
+.title-bar-left {
+  display: flex;
+}
+
+.verticle-align {
+  margin: auto;
+}
+
+.headline-image {
+  @media #{$small-only} {
+    min-height: 60px;
+    display: none !important;
+  }
+  @media #{$medium-up} {
+    height: auto;
+  }  
+}
+
+.menu-item {
+  color: white;
+  padding: 0 15px;
+}
+
+.menu-item img {  
+  max-width: 20%;
+}
