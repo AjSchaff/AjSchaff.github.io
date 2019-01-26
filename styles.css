@@ -1,3 +1,61 @@
-.mt-500 {
-    margin-top: 500px;
+.display-for-sm-only {
+  display: block;
 }
+@media (min-width: 768px) {
+  .display-for-sm-only {
+    display: none;
+  }
+}
+
+.display-for-md-up {
+  display: none;
+}
+@media (min-width: 768px) {
+  .display-for-md-up {
+    display: block;
+  }
+}
+
+.jumbotron {
+  background-color: #C0C0C0;
+}
+@media (min-width: 576px) {
+  .jumbotron {
+    height: 700px;
+  }
+}
+.jumbotron .text-center {
+  color: white;
+}
+
+.profile-pic {
+  display: block;
+  border-radius: 50%;
+}
+
+.container {
+  color: #C0C0C0;
+}
+
+ul {
+  text-align: center;
+  padding: 0;
+}
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 10px;
+}
+ul li.icon {
+  vertical-align: top;
+}
+ul li .icon-img {
+  height: 150px;
+  width: 150px;
+}
+ul li .icon-img--small {
+  height: 75px;
+  width: 75px;
+}
+
+/*# sourceMappingURL=styles.css.map */

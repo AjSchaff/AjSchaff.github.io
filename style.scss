@@ -1,0 +1,62 @@
+$primary-color: #C0C0C0;
+
+// breakpoints
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xL: 1200px;
+
+.display-for-sm-only {
+  display: block;
+  @media (min-width: $md){
+    display: none;
+  }
+}
+.display-for-md-up {
+  display: none;
+  @media (min-width: $md) {
+    display: block;
+  }
+}
+
+.jumbotron {
+  background-color: $primary-color;
+  @media (min-width: $sm) { 
+    height: 700px; 
+   }
+  .text-center {
+    color: white;
+  }
+}
+
+.profile-pic {
+  display: block;
+  border-radius: 50%;
+}
+
+.container{
+ color: $primary-color
+}
+
+ul{  
+  text-align: center;
+  padding: 0;
+  
+  li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 10px;
+    &.icon {
+      vertical-align: top;
+    }
+    .icon-img {
+      height: 150px;
+      width: 150px;
+    }
+    .icon-img--small {
+      height: 75px;
+      width: 75px;
+    }
+  }
+}
+
