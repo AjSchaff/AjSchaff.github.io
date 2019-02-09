@@ -16,6 +16,10 @@
   }
 }
 
+body {
+  background-color: #fff;
+}
+
 .jumbotron {
   background-color: #C0C0C0;
 }
@@ -25,7 +29,7 @@
   }
 }
 .jumbotron .text-center {
-  color: white;
+  color: #fff;
 }
 
 .profile-pic {
@@ -56,6 +60,28 @@ ul li .icon-img {
 ul li .icon-img--small {
   height: 75px;
   width: 75px;
+}
+
+img {
+  height: 85vh;
+  object-fit: cover;
+}
+
+.btn.btn-primary {
+  background-color: #C0C0C0;
+  color: #fff !important;
+}
+
+footer {
+  background-color: #C0C0C0;
+  width: 100%;
+}
+
+#footer {
+  color: #fff;
+}
+#footer p {
+  margin: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
