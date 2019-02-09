@@ -1,11 +1,17 @@
+// Color Pallete
+
+$primary-dark: #424242;
 $primary-color: #C0C0C0;
 $white: #fff;
 
-// breakpoints
+// Breakpoints
+
 $sm: 576px;
 $md: 768px;
 $lg: 992px;
 $xL: 1200px;
+
+// Generic Layout items
 
 .display-for-sm-only {
   display: block;
@@ -24,6 +30,13 @@ body {
   background-color: $white;
 }
 
+.container{
+  color: $primary-color
+ }
+
+
+// Engagement Area
+
 .jumbotron {
   background-color: $primary-color;
   @media (min-width: $sm) { 
@@ -39,9 +52,7 @@ body {
   border-radius: 50%;
 }
 
-.container{
- color: $primary-color
-}
+// Skills Area
 
 ul{  
   text-align: center;
@@ -65,15 +76,33 @@ ul{
   }
 }
 
+// Carousel Area
+
 img {
-  height: 85vh;  
-  object-fit: cover; // here
+  height:57vh;  
+  object-fit: cover;
 }
+
+.carousel-content {
+  min-height: 125px;
+  padding: 15px;
+  background-color: $primary-color;
+  color: $white;
+}
+
+.carousel-item {
+  padding: 2px;
+  border: 2px solid $primary-color;
+}
+
+// Contact Me Area
 
 .btn.btn-primary {
   background-color: $primary-color;
   color: $white !important;
 }
+
+//Footer 
 
 footer {
   background-color: $primary-color;

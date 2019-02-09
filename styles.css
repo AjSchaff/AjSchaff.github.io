@@ -20,6 +20,10 @@ body {
   background-color: #fff;
 }
 
+.container {
+  color: #C0C0C0;
+}
+
 .jumbotron {
   background-color: #C0C0C0;
 }
@@ -35,10 +39,6 @@ body {
 .profile-pic {
   display: block;
   border-radius: 50%;
-}
-
-.container {
-  color: #C0C0C0;
 }
 
 ul {
@@ -63,8 +63,20 @@ ul li .icon-img--small {
 }
 
 img {
-  height: 85vh;
+  height: 57vh;
   object-fit: cover;
+}
+
+.carousel-content {
+  min-height: 125px;
+  padding: 15px;
+  background-color: #C0C0C0;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 2px;
+  border: 2px solid #C0C0C0;
 }
 
 .btn.btn-primary {
