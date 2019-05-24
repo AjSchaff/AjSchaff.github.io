@@ -1,3 +1,106 @@
+<<<<<<< HEAD
 .mt-500 {
     margin-top: 500px;
 }
+=======
+.display-for-sm-only {
+  display: block;
+}
+@media (min-width: 768px) {
+  .display-for-sm-only {
+    display: none;
+  }
+}
+
+.display-for-md-up {
+  display: none;
+}
+@media (min-width: 768px) {
+  .display-for-md-up {
+    display: block;
+  }
+}
+
+body {
+  background-color: #fff;
+}
+
+.container {
+  color: #C0C0C0;
+}
+
+.jumbotron {
+  background-color: #C0C0C0;
+}
+@media (min-width: 576px) {
+  .jumbotron {
+    height: 700px;
+  }
+}
+.jumbotron .text-center {
+  color: #fff;
+}
+
+.profile-pic {
+  display: block;
+  border-radius: 50%;
+}
+
+ul {
+  text-align: center;
+  padding: 0;
+}
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 10px;
+}
+ul li.icon {
+  vertical-align: top;
+}
+ul li .icon-img {
+  height: 150px;
+  width: 150px;
+}
+ul li .icon-img--small {
+  height: 75px;
+  width: 75px;
+}
+
+img {
+  height: auto;
+  object-fit: cover;
+}
+
+.carousel-content {
+  min-height: 115px;
+  font-size: 14px;
+  padding: 15px;
+  background-color: #C0C0C0;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 2px;
+  border: 2px solid #C0C0C0;
+}
+
+.btn.btn-primary {
+  background-color: #C0C0C0;
+  color: #fff !important;
+}
+
+footer {
+  background-color: #C0C0C0;
+  width: 100%;
+}
+
+#footer {
+  color: #fff;
+}
+#footer p {
+  margin: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
+>>>>>>> 2fdebacfe08df3d5de4dc5cf14b899d850846f72
